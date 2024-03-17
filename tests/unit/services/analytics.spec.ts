@@ -2,10 +2,10 @@ import { AsyncLocalStorage } from 'async_hooks'
 
 import { ObjectId } from 'bson'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import Logger from '@diia-inhouse/diia-logger'
-import TestKit, { mockClass } from '@diia-inhouse/test'
-import { AlsData } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import TestKit, { mockClass } from '@kant2002-diia-inhouse/test'
+import { AlsData } from '@kant2002-diia-inhouse/types'
 
 import { AnalyticsActionResult, AnalyticsActionType, AnalyticsCategory, AnalyticsService } from '../../../src'
 import { acquirerAnalyticsData, analyticsData, notificationAnalyticsData, userAnalyticsData } from '../../mocks/analyticsData'

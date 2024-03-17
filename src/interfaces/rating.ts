@@ -1,4 +1,4 @@
-import { DocumentType, NotificationTemplateParams, PublicServiceKebabCaseCode } from '@diia-inhouse/types'
+import { DocumentType, NotificationTemplateParams, PublicServiceKebabCaseCode } from '@kant2002-diia-inhouse/types'
 
 export enum RatingCategory {
     PublicService = 'public-service',

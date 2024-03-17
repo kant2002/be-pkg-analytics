@@ -2,8 +2,8 @@ import { AsyncLocalStorage } from 'async_hooks'
 
 import { ObjectId } from 'bson'
 
-import { ActHeaders, AlsData, Logger } from '@diia-inhouse/types'
-import { guards } from '@diia-inhouse/utils'
+import { ActHeaders, AlsData, Logger } from '@kant2002-diia-inhouse/types'
+import { guards } from '@kant2002-diia-inhouse/utils'
 
 import {
     AcquirerAnalytics,
